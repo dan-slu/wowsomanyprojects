@@ -1,0 +1,44 @@
+#contact_info {
+  margin-bottom: -0px;
+  text-align: center;
+  font-size: large;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: rgb(255, 222, 210);
+}
+
+h1 {
+  margin-bottom: -0px;
+  text-align: center;
+}
+
+#pub_title {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: help;
+  font-size: x-large;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  font-size: x-large;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
+}
