@@ -1,17 +1,19 @@
-#contact_info {
-  margin-bottom: -0px;
-  text-align: center;
-  font-size: large;
-}
-
 body {
   font-family: Tahoma, sans-serif;
   background-color: rgb(255, 222, 210);
 }
 
 h1 {
+  margin-top: 5px;
   margin-bottom: -0px;
   text-align: center;
+  font-size: 2vw;
+}
+
+#contact_info {
+  margin-bottom: -0px;
+  text-align: center;
+  font-size: 1vw;
 }
 
 #pub_title {
@@ -41,4 +43,15 @@ h1 {
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
   margin-bottom: 5px;
+}
+
+/*needed for arrow for list*/
+.arrow {
+  border: solid rgb(252, 252, 252);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
