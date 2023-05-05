@@ -23,6 +23,11 @@ h1 {
   margin-bottom: -0px;
 }
 
+.some_text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 .pic_ann {
   margin-top: 0px;
   text-align: center;
