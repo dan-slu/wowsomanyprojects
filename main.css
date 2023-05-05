@@ -20,12 +20,14 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -0px;
 }
 
 .pic_ann {
+  margin-top: 0px;
   text-align: center;
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #pub_title {
