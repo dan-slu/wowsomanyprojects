@@ -43,7 +43,8 @@ h1 {
   text-align: left;
 }
 
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: #555;
 }
 
@@ -63,7 +64,9 @@ h1 {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
-}.down {
+}
+
+.down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
